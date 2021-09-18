@@ -8,6 +8,8 @@ Uma empresa no seguimento de supermercados solicitou um sistema para vendas onli
 
 De acordo com a modelagem de dados disponibilizada no arquivo `modelagem.png`, faça a criação do banco de dados `ecommerce` e suas tabelas com todos os relacionamentos apresentados.
 
+![](./modelagem.png)
+
 obs.:
 
 a) O campo cpf da tabela `clientes` e da tabela `vendedores` não pode aceitar registros duplicados.
@@ -72,7 +74,7 @@ Obs.: informe o `id` da `categoria_id` referente a cada produto. Ex.: frutas `ca
 
 Obs.: Sempre que lançar uma venda, será necessário abater as quantidades no estoque dos produtos vendidos antes de uma nova venda.
 
-a) José Algusto comprou os seguintes itens com o vendedor Carlos Eduardo:
+a) José Augusto comprou os seguintes itens com o vendedor Carlos Eduardo:
 
 -   1 Mamão, 1 Pepsi de 2l, 6 Heinekens de 600ml, 1 Escova dental e 5 Maçãs.
 
@@ -112,9 +114,9 @@ Faça commit do resultado.
 
 Preencha a checklist para finalizar o exercício:
 
--   [ ] Resolver o exercício revendo a aula se necessário
--   [ ] Adicionar as mudanças aos commits (`git add .` para adicionar todos os arquivos, ou `git add nome_do_arquivo` para adicionar um arquivo específico)
--   [ ] Commitar a cada mudança significativa ou na finalização do exercício (`git commit -m "Mensagem do commit"`)
--   [ ] Pushar os commits no seu fork na origem (`git push origin nome-da-branch`)
+-   [x] Resolver o exercício revendo a aula se necessário
+-   [x] Adicionar as mudanças aos commits (`git add .` para adicionar todos os arquivos, ou `git add nome_do_arquivo` para adicionar um arquivo específico)
+-   [x] Commitar a cada mudança significativa ou na finalização do exercício (`git commit -m "Mensagem do commit"`)
+-   [x] Pushar os commits no seu fork na origem (`git push origin nome-da-branch`)
 
 ###### tags: `SQL` `módulo 3` `exercício de classe` `postgres` `nodeJS` `modelagem de dados`
